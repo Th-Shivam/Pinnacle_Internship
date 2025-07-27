@@ -8,7 +8,7 @@ import sys
 class Alarm:
     def __init__(self):
         pygame.mixer.init()
-        pygame.mixer.music.load("alarm_kgf.mp3")
+        pygame.mixer.music.load("Pylarm/alarm_kgf.mp3")
         pygame.mixer.music.set_volume(1)
 
     def get_input(self):
